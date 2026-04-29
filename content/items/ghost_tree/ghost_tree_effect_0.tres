@@ -1,0 +1,18 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://mods-unpacked/Yoko-Ghostato/effects/gain_stat_every_killed_scaling/gain_stat_every_killed_scaling_effect.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+key = "ghostato_gain_stat_every_killed_scaling"
+text_key = "EFFECT_GHOSTATO_GAIN_STAT_EVERY_KILLED_SCALING"
+value = 150
+custom_key = ""
+storage_method = 0
+effect_sign = 3
+custom_args = [  ]
+stat = "trees"
+stat_nb = 1
+scaling_stat = "trees"
+scaling_percent = 50.0
+tracking_key = "item_ghostato_ghost_tree"

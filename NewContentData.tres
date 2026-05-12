@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=49 format=2]
+[gd_resource type="Resource" load_steps=51 format=2]
 
 [ext_resource path="res://mods-unpacked/Yoko-NewContentLoader/NewContent.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/Yoko-Ghostato/content/weapons/melee/ghost_spiky_shield/2/ghost_spiky_shield_2_data.tres" type="Resource" id=2]
@@ -46,8 +46,10 @@
 [ext_resource path="res://mods-unpacked/Yoko-Ghostato/content/weapons/melee/ghost_jousting_lance/2/ghost_jousting_lance_2_data.tres" type="Resource" id=44]
 [ext_resource path="res://mods-unpacked/Yoko-Ghostato/content/weapons/melee/ghost_jousting_lance/1/ghost_jousting_lance_data.tres" type="Resource" id=45]
 [ext_resource path="res://mods-unpacked/Yoko-Ghostato/content/items/ghost_tree/ghost_tree_data.tres" type="Resource" id=46]
-[ext_resource path="res://mods-unpacked/Yoko-Ghostato/effects/gain_stat_every_killed_scaling/gain_stat_every_killed_scaling_effect.gd" type="Script" id=47]
+[ext_resource path="res://mods-unpacked/Yoko-Ghostato/extensions/effects/gain_stat_every_killed_scaling/gain_stat_every_killed_scaling_effect.gd" type="Script" id=47]
 [ext_resource path="res://mods-unpacked/Yoko-Ghostato/content/stats/stat_trees.tres" type="Resource" id=48]
+[ext_resource path="res://mods-unpacked/Yoko-Ghostato/translations/Ghostato.zh.translation" type="Translation" id=49]
+[ext_resource path="res://mods-unpacked/Yoko-Ghostato/translations/Ghostato.en.translation" type="Translation" id=50]
 
 [resource]
 script = ExtResource( 1 )
@@ -69,6 +71,7 @@ sets = [  ]
 difficulties = [  ]
 icons = [  ]
 title_screen_backgrounds = [  ]
+translations = [ ExtResource( 50 ), ExtResource( 49 ) ]
 challenges = [  ]
 zones = [  ]
 tracked_items = {

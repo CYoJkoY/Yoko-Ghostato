@@ -37,15 +37,15 @@ arg_key = ""
 
 [resource]
 script = ExtResource( 1 )
-key = "ghostato_gain_stat_every_killed_scaling"
-text_key = "EFFECT_GHOSTATO_GAIN_STAT_EVERY_KILLED_SCALING"
-value = 150
+key = "ghostato_gain_stat_when_killed_single_scaling"
+text_key = "EFFECT_GHOSTATO_GAIN_STAT_WHEN_KILLED_SINGLE_SCALING"
+value = 2
 custom_key = ""
 storage_method = 0
-effect_sign = 1
+effect_sign = 3
 custom_args = [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ) ]
-stat = "trees"
+stat = "stat_percent_damage"
 stat_nb = 1
-scaling_stat = "trees"
-scaling_percent = 50.0
-tracking_key = "item_ghostato_ghost_tree"
+scaling_stat = "stat_percent_damage"
+scaling_percent = 1.2
+tracking_key = ""

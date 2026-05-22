@@ -13,9 +13,8 @@ static func init_stats(all_null_values: bool = false) -> Dictionary:
 
 		new_stats.merge(vanilla_stats)
 
-		return new_stats;
-	else:
-		return {}
+		return new_stats
+	else: return {}
 
 static func init_effects() -> Dictionary:
 	if (Utils != null):
@@ -29,6 +28,5 @@ static func init_effects() -> Dictionary:
 
 		new_effects.merge(vanilla_effects)
 
-		return new_effects;
-	else:
-		return {}
+		return new_effects
+	else: return {}
